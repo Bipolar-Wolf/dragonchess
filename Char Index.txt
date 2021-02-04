@@ -11,5 +11,5 @@ w o u h t c m k p
 d b e
 
 ==Tiles==
-Brown   Red     Light_Brown     Green   Light_White     Cyan
-_       #       -               /       @               *
+Background
+#
