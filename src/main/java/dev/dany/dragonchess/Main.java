@@ -1595,21 +1595,21 @@ public class Main extends javax.swing.JFrame
                 }
                 
                 if(x - 1 >= 0)
-                    moves[1][y][x-1] = true;
+                    moves[z][y][x-1] = true;
                 if(x + 1 < 12)
-                    moves[1][y][x+1] = true;
+                    moves[z][y][x+1] = true;
                 if(y - 1 >= 0)
-                    moves[1][y-1][x] = true;
+                    moves[z][y-1][x] = true;
                 if(y + 1 < 8)
-                    moves[1][y+1][x] = true;
+                    moves[z][y+1][x] = true;
                 if(x - 1 >= 0 && y - 1 >= 0)
-                    moves[1][y-1][x-1] = true;
+                    moves[z][y-1][x-1] = true;
                 if(x + 1 < 12 && y - 1 >= 0)
-                    moves[1][y-1][x+1] = true;
+                    moves[z][y-1][x+1] = true;
                 if(x - 1 >= 0 && y + 1 < 8)
-                    moves[1][y+1][x-1] = true;
+                    moves[z][y+1][x-1] = true;
                 if(x + 1 < 12 && y + 1 < 8)
-                    moves[1][y+1][x+1] = true;
+                    moves[z][y+1][x+1] = true;
                 
                 if(z - 1 >= 0)
                 {
